@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./imgs/fundo9.jpeg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+header {
+    background-color: white;
+    width: 100vw;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px 35px;
+    font-variant: small-caps;
+
+}
+
+
+header > nav > a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+header > nav > a:hover {
+    background-color: rgb(0, 188, 221);
+    color: white;
+    border-radius: 20px;
+    transition: background-color .2s;
+    transform: translate( 3px, 3px);
+}
+
+.botao01 {
+    color: rgb(0, 188, 221);
+}
+
+
+
+span {
+    background-color: rgb(0, 188, 221);
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+}
+
+main {
+    max-width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 250px;
+}
+
+main > p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+main h1 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+main > input {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+
+}
+
+main > input:hover {
+    background-color: rgb(121, 232, 252);
+    color: white;
+    transition: background-color .2s;
+    transform: translate( 2px,2px);
+
+}
